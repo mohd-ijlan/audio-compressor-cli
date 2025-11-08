@@ -1,7 +1,7 @@
 {
   "name": "audio-compressor-cli",
   "version": "1.0.0",
-  "description": "Compress audio files/folders using FFmpeg (static) with a simple CLI.",
+  "description": "Compress audio files or folders using FFmpeg (bundled static binary) via a simple CLI.",
   "type": "module",
   "bin": {
     "compress-audio": "./index.js"
@@ -15,10 +15,21 @@
     "ffmpeg",
     "cli",
     "mp3",
-    "wav"
+    "wav",
+    "converter",
+    "compression",
+    "encode"
   ],
-  "author": "Your Name",
+  "author": "Mohammed Ijlan",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohd-ijlan/audio-compressor-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mohd-ijlan/audio-compressor-cli/issues"
+  },
+  "homepage": "https://github.com/mohd-ijlan/audio-compressor-cli#readme",
   "dependencies": {
     "chalk": "^5.3.0",
     "cli-progress": "^3.12.0",
