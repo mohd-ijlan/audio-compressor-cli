@@ -78,10 +78,7 @@ audio-compressor-cli/
 ├── README.md
 └── /compressed       # Generated output (ignored by git)
 ```
-## Report issues / request features
-```
-https://github.com/mohd-ijlan/audio-compressor-cli/issues
-```
+
 ## License
 MIT License © 2025 Mohammed Ijlan
 
